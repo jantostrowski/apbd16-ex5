@@ -1,0 +1,42 @@
+# Ignore build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Other Rider temp
+.idea/
+*.DotSettings.user
+
+# Build folders from different configs
+**/Debug/
+**/Release/

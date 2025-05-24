@@ -1,0 +1,5 @@
+@Tutorial5_HostAddress = http://localhost:5109
+
+### GET all Doctors
+GET {{Tutorial5_HostAddress}}/api/doctors
+Accept: application/json
